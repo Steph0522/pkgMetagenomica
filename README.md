@@ -4,6 +4,12 @@
 # pkgMetagenomica
 
 <!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![BioC
+status](http://www.bioconductor.org/shields/build/release/bioc/pkgMetagenomica.svg)](https://bioconductor.org/checkResults/release/bioc-LATEST/pkgMetagenomica)
+[![R-CMD-check-bioc](https://github.com/Steph0522/pkgMetagenomica/actions/workflows/R-CMD-check-bioc.yaml/badge.svg)](https://github.com/Steph0522/pkgMetagenomica/actions/workflows/R-CMD-check-bioc.yaml)
 <!-- badges: end -->
 
 The goal of `pkgMetagenomica` is to …
@@ -70,22 +76,6 @@ R. Please run this yourself to check for any updates on how to cite
 
 ``` r
 print(citation('pkgMetagenomica'), bibtex = TRUE)
-#> 
-#> To cite package 'pkgMetagenomica' in publications use:
-#> 
-#>   Stephanie Hereira (2022). pkgMetagenomica: Package for metagenomics
-#>   analysis. R package version 0.99.0.
-#>   https://github.com/Steph0522/pkgMetagenomica
-#> 
-#> A BibTeX entry for LaTeX users is
-#> 
-#>   @Manual{,
-#>     title = {pkgMetagenomica: Package for metagenomics analysis},
-#>     author = {Stephanie Hereira},
-#>     year = {2022},
-#>     note = {R package version 0.99.0},
-#>     url = {https://github.com/Steph0522/pkgMetagenomica},
-#>   }
 ```
 
 Please note that the `pkgMetagenomica` was only made possible thanks to
